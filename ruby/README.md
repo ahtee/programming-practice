@@ -1,1 +1,1 @@
-# Ruby algorithms :diamond:
+# Ruby algorithms :gem:
