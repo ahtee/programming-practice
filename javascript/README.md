@@ -3,3 +3,7 @@
 Prototypal inheritance
 
 Algorithms
+
+ES6
+
+node modules
