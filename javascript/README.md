@@ -1,1 +1,5 @@
-# JavaScript :tada:
+# JavaScript programming :tada:
+
+Prototypal inheritance
+
+Algorithms
