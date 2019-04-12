@@ -1,0 +1,1 @@
+# Ruby algorithms :diamond:
