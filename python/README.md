@@ -1,1 +1,1 @@
-#Python algorithms :snake:
+# Python algorithms :snake:
