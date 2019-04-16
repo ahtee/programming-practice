@@ -6,8 +6,8 @@ Practice programming problems for Software Engineering Roles (Frontend).
 
 This document is to track my own progress of understanding software engineering concepts. Fundamental algorithms and data structures:
 
-- [ ] Breadth-first search 
-- [ ] Depth-first search 
+- [ ] Breadth-first search - Queue
+- [ ] Depth-first search - Stack
 - [ ] Hash tables 
 - [ ] Lists 
 - [ ] Binary trees
@@ -32,7 +32,7 @@ Master approaches to programming problems by knowing when to use Recursion and a
 #### Traversal
 
 - [ ] Tree Traversal - In-order, Pre-order, and Post-order.
-- [ ] Graph Traversal - Using stacks?
+- [ ] Graph Traversal - Using stacks or queues?
 
 Pre-Order, In-order, and Post-order traversal (this section). You should also know how to write Depth First Search and Breadth First Search traversals (Table of contents). 
 
