@@ -4,6 +4,15 @@ Practice programming problems for Software Engineering Roles (Frontend).
 
 ## Table of Contents
 
+This document is to track my own progress of understanding software engineering concepts. Fundamental algorithms and data structures: 
+  - Breadth-first search 
+  - Depth-first search 
+  - Hash tables 
+  - Lists 
+  - Binary trees
+
+...as well as their runtime characteristics and common applications.
+
 ### Languages
   - [JavaScript](/javascript/README.md)
   - [Python](/python/README.md)
@@ -48,3 +57,5 @@ Show you can create structure
     
 ## Dynamic Programming :point_left:
 - Memoization
+
+. For frontend positions, we emphasize expertise programming for the Web (including an understanding of modern JS tooling and cross-browser compatibility issues) and sensibilities for design and UX over a strong algorithmic or CS background.
