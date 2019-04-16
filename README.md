@@ -40,7 +40,7 @@ Pre-Order, In-order, and Post-order traversal (this section). You should also kn
 
 #### Binary Search Trees
 
-- Create a Tree
+- Create a Tree from an array (`are there other Data Structures we can create trees from? Linked Lists?`)
 - Balance a BST
 
 #### Stacks and Queues
@@ -49,7 +49,9 @@ Pre-Order, In-order, and Post-order traversal (this section). You should also kn
 #### HashMaps, Hashtables, ...
     
 #### Object-Oriented Programming
-Show you can create structure
+
+Show you can create program structure.
+
 - Classes
 - Prototypal inheritance in JavaScript
 
@@ -60,6 +62,7 @@ Show you can create structure
 #### String manipulation
     
 ## Dynamic Programming :point_left:
-- Memoization
+
+- [ ] Memoization
 
 . For frontend positions, we emphasize expertise programming for the Web (including an understanding of modern JS tooling and cross-browser compatibility issues) and sensibilities for design and UX over a strong algorithmic or CS background.
