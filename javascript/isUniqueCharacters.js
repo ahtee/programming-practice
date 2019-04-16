@@ -19,5 +19,5 @@ function isUniqueCharacters(string) {
   return true;
 }
 
-let msg = 'ndsfjsdfjbdsfjkb'
+let msg = 'ndsfjsdfjbdsfjkb';
 isUniqueCharacters(msg);
