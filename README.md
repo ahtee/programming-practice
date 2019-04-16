@@ -2,16 +2,19 @@
 
 Practice programming problems for Software Engineering Roles (Frontend). 
 
-## Table of Contents
+## Introduction
 
-This document is to track my own progress of understanding software engineering concepts. Fundamental algorithms and data structures: 
-  - Breadth-first search 
-  - Depth-first search 
-  - Hash tables 
-  - Lists 
-  - Binary trees
+This document is to track my own progress of understanding software engineering concepts. Fundamental algorithms and data structures:
+
+- [ ] Breadth-first search 
+- [ ] Depth-first search 
+- [ ] Hash tables 
+- [ ] Lists 
+- [ ] Binary trees
 
 ...as well as their runtime characteristics and common applications.
+
+## Table of Contents
 
 ### Languages
   - [JavaScript](/javascript/README.md)
@@ -21,16 +24,17 @@ This document is to track my own progress of understanding software engineering 
 ### Computer Science Concepts to Master
 Master approaches to programming problems by knowing when to use Recursion and also what Data Structure is best to solve the problem.
 
-- Recursive Functions (Top-Down algorithms).
-- Iterative Algorithms (Bottom-Up algorithms).
+- [ ] Recursive Functions (Top-Down algorithms).
+- [ ] Iterative Algorithms (Bottom-Up algorithms).
 
 `Note: Recursive function can be done iteratively by including Stacks or Queues, but is more difficult to solve.`
 
 #### Traversal
-- Tree Traversal
-- Graph Traversal 
 
-Pre-Order, In-order, and Post-order traversal. You should also know how to write Depth First Search and Breadth First Search traversals.
+- [ ] Tree Traversal - In-order, Pre-order, and Post-order.
+- [ ] Graph Traversal - Using stacks?
+
+Pre-Order, In-order, and Post-order traversal (this section). You should also know how to write Depth First Search and Breadth First Search traversals (Table of contents). 
 
 `Note: Try using a Data Structures to represent a Tree, as an alternative to Nodes (Array, for example)`
 
