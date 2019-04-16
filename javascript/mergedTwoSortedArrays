@@ -1,0 +1,32 @@
+function mergeArrays(myArray, alicesArray) {
+
+  // Combine the sorted arrays into one large sorted array
+  const mergedArray = [];
+  
+  let myIndex = 0;
+  let alicesIndex = 0;
+  let mergedIndex = 0;
+  
+  while (mergedIndex < myArray.length + alicesArray.length) {
+    if (alicesIndex >= alicesArray.length || myArray[myIndex] < alicesArray[alicesIndex]) {
+      mergedArray[mergedIndex] = myArray[myIndex];
+      myIndex++
+    }
+    else if (myIndex >= myArray.length || alicesArray[alicesIndex] < myArray[myIndex]) {
+      mergedArray[mergedIndex] = alicesArray[alicesIndex];
+      alicesIndex++;
+    }
+    else {
+      mergedArray[mergedIndex] = myArray[myIndex];
+      mergedArray[mergedIndex+1] = alicesArray[alicesIndex];
+      mergedArray++;
+      myIndex++;
+      alicesIndex++;
+    }
+    mergedIndex++;
+  }
+  
+  return mergedArray;
+}
+
+// How can we change this to recieve an input of an array or sorted arrays?
