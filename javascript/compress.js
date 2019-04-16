@@ -5,13 +5,13 @@ function compress(message) {
   let countConsecutive = 0;
   
   for (let i = 0; i < message.length; i++) {
-  	countConsecutive++
+    countConsecutive++
     if (message[i] !== message[i+1] || i + 1 >= message.length) {
-    	compressedLength += 1 + message.valueOf(countConsecutive).length;
+      compressedLength += 1 + message.valueOf(countConsecutive).length;
       countConsecutive = 0;
     }
   }
-  return compressedLength;
+	return compressedLength;
 }
 
 compress(msg);
