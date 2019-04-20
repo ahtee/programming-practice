@@ -6,8 +6,6 @@ function binarySearch(target, nums) {
   // we've run out of guesses and the number must not be present
   while (floorIndex + 1 < ceilingIndex) {
 
-    // Find the index ~halfway between the floor and ceiling
-    // We have to round down, to avoid getting a "half index"
     const distance = ceilingIndex - floorIndex;
     const halfDistance = Math.floor(distance / 2);
     const guessIndex = floorIndex + halfDistance;
