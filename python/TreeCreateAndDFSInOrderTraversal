@@ -31,10 +31,30 @@ class Node:
         def printInOrderDFS(self):
                 if (self.data):
                         if (self.left):
-                                self.left.printInOrderDFS()
+                                printInOrderDFS(self.left)
                         print self.data
                         if (self.right):
-                                self.right.printInOrderDFS()
+                                printInOrderDFS(self.right)
+                else:
+                        print "Binary tree doesn't exist in memory."
+        
+        def printPreOrderDFS(self):
+                if (self.data):
+                        print self.data
+                        if (self.left):
+                                printPreOrderDFS(self.left)
+                        if (self.right):
+                                printPreOrderDFS(self.right)
+                else:
+                        print "Binary tree doesn't exist in memory."
+        
+        def printPostOrderDFS(self):
+                if (self.data):
+                        if (self.left):
+                                printPostOrderDFS(self.left)
+                        if (self.right):
+                                printPostOrderDFS(self.right)
+                        print self.data
                 else:
                         print "Binary tree doesn't exist in memory."
                         
