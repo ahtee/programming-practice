@@ -28,13 +28,22 @@ class Node:
         #                 print self.data
         #                 printInOrderDFS(self.left)
 
+        def findVal(self, value):
+                if (value < self.val):
+                        return self.left.findVal(value)
+                elif (value > self.val):
+                        return self.right.findVal(value)
+                
+                        
+                
+
         def printInOrderDFS(self):
                 if (self.data):
                         if (self.left):
-                                printInOrderDFS(self.left)
+                                self.left.printInOrderDFS()
                         print self.data
                         if (self.right):
-                                printInOrderDFS(self.right)
+                                self.right.printInOrderDFS()
                 else:
                         print "Binary tree doesn't exist in memory."
         
@@ -42,18 +51,18 @@ class Node:
                 if (self.data):
                         print self.data
                         if (self.left):
-                                printPreOrderDFS(self.left)
+                                self.left.printPreOrderDFS()
                         if (self.right):
-                                printPreOrderDFS(self.right)
+                                self.right.printPreOrderDFS()
                 else:
                         print "Binary tree doesn't exist in memory."
         
         def printPostOrderDFS(self):
                 if (self.data):
                         if (self.left):
-                                printPostOrderDFS(self.left)
+                                self.left.printPostOrderDFS()
                         if (self.right):
-                                printPostOrderDFS(self.right)
+                                self.right.printPostOrderDFS()
                         print self.data
                 else:
                         print "Binary tree doesn't exist in memory."
